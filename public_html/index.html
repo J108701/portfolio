@@ -36,16 +36,7 @@
                         <a class="nav-link" href="#portfolio">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#testmonial">Testmonial</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#blog">Blog</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="- btn btn-primary rounded ml-4" href="components.html">Copmonents</a>
                     </li>
                 </ul>
             </div>
@@ -162,7 +153,7 @@
         <div class="container text-center">
             <h6 class="subtitle">Skills</h6>
             <h6 class="section-title mb-4">Why Choose me</h6>
-            <p class="mb-5 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In alias dignissimos. <br> rerum commodi corrupti, temporibus non quam.</p>
+            <p class="mb-5 pb-4">Bridging brand identity and digital media with fast, hand-drawn-to-digital workflows for seamless cross-platform execution. <br>  </p>
 
             <div class="row text-left">
                 <div class="col-sm-6">
@@ -199,7 +190,7 @@
         <div class="container text-center">
             <h6 class="subtitle">Portfolio</h6>
             <h6 class="section-title mb-4">Check My Wonderful Works</h6>
-            <p class="mb-5 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In alias dignissimos. <br> rerum commodi corrupti, temporibus non quam.</p>
+            <p class="mb-5 pb-4">Explore my design journey, where brand identity meets digital innovation, blending creativity with functionality. <br>  </p>
 
             <div class="row">
                 <div class="col-sm-4">
@@ -294,59 +285,115 @@
     </section>      
     <!-- End od Hire me section. -->
 
-    <!-- Contact Section -->
-    <section id="contact" class="position-relative section">
-        <div class="container text-center">
-            <h6 class="subtitle">Contact</h6>
-            <h6 class="section-title mb-4">Get In Touch With Me</h6>
-            <p class="mb-5 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In alias dignissimos. <br> rerum commodi corrupti, temporibus non quam.</p>
+<!-- Contact Section -->
+<section id="contact" class="position-relative section">
+    <div class="container text-center">
+        <h6 class="subtitle">Contact</h6>
+        <h6 class="section-title mb-4">Get In Touch With Me</h6>
+        <p class="mb-5 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In alias dignissimos. <br> rerum commodi corrupti, temporibus non quam.</p>
 
-            <div class="contact text-left">
-                <div class="form">
-                    <h6 class="subtitle">Available 24/7</h6>
-                    <h6 class="section-title mb-4">Get In Touch</h6>
-                    <form>
-                        <div class="form-group">
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" required>
-                        </div>
-                        <div class="form-group">
-                            <textarea name="contact-message" id="" cols="30" rows="5" class="form-control" placeholder="Message"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-block rounded w-lg">Send Message</button>
-                    </form>
-                </div>
-                <div class="contact-infos">
-                    <div class="item">
-                        <i class="ti-location-pin"></i>
-                        <div class="">
-                            <h5>Location</h5>
-                            <p> 12345 Fake ST NoWhere AB Country</p>
-                        </div>                          
+        <div class="contact text-left">
+            <div class="form">
+                <h6 class="subtitle">Available 24/7</h6>
+                <h6 class="section-title mb-4">Get In Touch</h6>
+                <form id="contact-form" onsubmit="return sendEmail(this)">
+                    <div class="form-group">
+                        <input type="email" 
+                               class="form-control" 
+                               id="exampleInputEmail1"
+                               name="from_email"
+                               aria-describedby="emailHelp" 
+                               placeholder="Enter email" 
+                               required>
                     </div>
-                    <div class="item">
-                        <i class="ti-mobile"></i>
-                        <div>
-                            <h5>Phone Number</h5>
-                            <p>(123) 456-7890</p>
-                        </div>                          
+                    <div class="form-group">
+                        <input type="text" 
+                               class="form-control" 
+                               id="subject"
+                               name="subject"
+                               placeholder="Subject" 
+                               required>
                     </div>
-                    <div class="item">
-                        <i class="ti-email"></i>
-                        <div class="mb-0">
-                            <h5>Email Address</h5>
-                            <p>info@website.com</p>
-                        </div>
+                    <div class="form-group">
+                        <textarea name="message" 
+                                  cols="30" 
+                                  rows="5" 
+                                  class="form-control" 
+                                  placeholder="Message"
+                                  required></textarea>
                     </div>
-                </div>                  
+                    <button type="submit" class="btn btn-primary btn-block rounded w-lg">
+                        Send Message
+                    </button>
+                    <div id="success-alert" class="alert alert-success mt-3 mb-0" style="display: none;">
+                        Message sent successfully!
+                    </div>
+                </form>
             </div>
-        </div>  
-        <div id="map">
-            <iframe src="https://snazzymaps.com/embed/61257"></iframe>
-        </div>      
-    </section>
+            <div class="contact-infos">
+                <div class="item">
+                    <i class="ti-location-pin"></i>
+                    <div class="">
+                        <h5>Location</h5>
+                        <p> Calgary Winnipeg </p>
+                    </div>                          
+                </div>
+                <div class="item">
+                    <i class="ti-mobile"></i>
+                    <div>
+                        <h5>Phone Number</h5>
+                        <p>(368) 599-0907</p>
+                    </div>                          
+                </div>
+                <div class="item">
+                    <i class="ti-email"></i>
+                    <div class="mb-0">
+                        <h5>Email Address</h5>
+                        <p>xyanxue2001@gmail.com</p>
+                    </div>
+                </div>
+            </div>                  
+        </div>
+    </div>
+</section>
+
+<!-- EmailJS Integration -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script>
+    (function() {
+        emailjs.init("m0P090vzx0gQt6YNT");
+    })();
+
+    function sendEmail(form) {
+        event.preventDefault();
+        
+        emailjs.sendForm('service_xnuqk4k', 'template_dh8ou29', form)
+            .then(() => {
+                form.reset();
+                const alert = document.getElementById('success-alert');
+                alert.style.display = 'block';
+                setTimeout(() => alert.style.display = 'none', 3000);
+            }, (error) => {
+                console.error('Failed:', error);
+                alert('Failed to send message. Please try again later.');
+            });
+        
+        return false;
+    }
+</script>        
+<div id="map">
+    <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d321202.81351207264!2d-114.2379269665326!3d51.02759484721724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x537170039f843fd5%3A0x266d3bb1b652b63a!2sCalgary%2C%20AB%2C%20Canada!5e0!3m2!1sen!2sus!4v1707974549119!5m2!1sen!2sus"
+        width="100%" 
+        height="450" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+</div>
+
+</section>
     <!-- End of Contact Section -->
 
     <!-- Page Footer -->
@@ -354,7 +401,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-sm-6">
-                    <p>Copyright <script>document.write(new Date().getFullYear())</script> &copy; <a href="http://www.devcrud.com" target="_blank">DevCRUD</a></p>
+                    <p>Copyright <script>document.write(new Date().getFullYear())</script> &copy; Jiayi Xue | All concepts remain the intellectual property of the creator</p>
                 </div>
                 <div class="col-sm-6">
                     <div class="socials">
