@@ -1,17 +1,24 @@
-Steller Free Bootstrap landing page for personal and commercial use. Designed with ♥️ and creativity by Devcrud.com 
+🎨 Curated Creativity
+Hi, I'm Jiayi Xue - a concept-driven designer specializing in brand identity systems and experimental typography. Fresh from the Graphic Design program, I thrive in the intersection of minimalist aesthetics and emotional storytelling.
 
-Product Page: https://wwww.devcrud.com/
+Design Toolkit
+🛠️ Tech Stack
+Adobe Creative Cloud (Photoshop, Illustrator, InDesign) × Figma × Procreate
+Basic HTML/CSS (For interactive prototypes)
 
-Credits:
+🌟 Core Competencies
 
-    Demo Images:
-        Unsplash:       (https://www.unsplash.com)
+Visual Identity Development
 
-    Icons:
-		Themify Icons (https://themify.me/themify-icons)
+Editorial Layout Design (Print & Digital)
 
-	Other:
-		jQuery (https://www.jquery.com)
-		Bootstrap (https://www.getbootstrap.com)
-		Bootstrap Affix (http://getbootstrap.com/javascript/#affix) 
+Typographic Hierarchy Mastery
 
+Color Psychology Implementation
+
+UX-Infused Graphic Solutions
+
+🌐 Let's Connect
+✉️ xyanxue2001@gmail.com
+
+© 2025 Jiayi Xue | All concepts remain the intellectual property of the creator
