@@ -11408,7 +11408,7 @@ pre {
   box-shadow: 0 0 10px rgba(255, 122, 87, 0.5);
 }
 
-.page-footer {
+/* .page-footer {
   background: #fcfdff;
 }
 
@@ -11439,7 +11439,30 @@ pre {
   .page-footer .row .socials {
     margin: auto;
   }
+} */
+
+.page-footer {
+  background-color: #fcfdff; /* 可改为你设计用色 */
+  padding: 20px 0;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  color: #555;
 }
+
+@media (min-height: 800px) {
+  body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+  }
+
+  .page-footer {
+      margin-top: auto;
+  }
+}
+
 
 .header {
   height: 94vh;
